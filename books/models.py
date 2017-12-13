@@ -8,4 +8,4 @@ from django.db import models
 class Book(models.Model):
     title = models.CharField(max_length=128)
     null_boolean = models.NullBooleanField()
-    boolean = models.NullBooleanField()
+    boolean = models.BooleanField()
